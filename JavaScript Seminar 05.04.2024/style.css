@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.button{
+    width: 50px;
+    aspect-ratio: 1;
+    font-size: 2rem;
+}
+
+#display{
+    border: 1px solid black;
+    width: 50px;
+    aspect-ratio: 1;
+    font-size: 2rem;
+    text-align: center;
+}
