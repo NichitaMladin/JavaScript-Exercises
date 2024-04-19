@@ -16,7 +16,7 @@
     let sumEven = 0;
     let sumOdd = 0;
 
-    for(let i = 0; i <= numbers.length; i++){
+    for(let i = 0; i < numbers.length; i++){
         if(numbers[i] % 2 === 0){
             sumEven = sumEven + numbers[i];
         } else {
@@ -24,7 +24,11 @@
         }
     }
 
-        return Math.abs(sumEven - sumOdd);
+        return (sumEven - sumOdd);
  }
 
     console.log(warOfNumbers([2, 8, 7, 5]));
+    console.log(warOfNumbers([4, 9, 10, 1, 2, 1]));
+    console.log(warOfNumbers([2, 8, 4, 0]));
+    console.log(warOfNumbers([1, 3, 7, 5]));
+
