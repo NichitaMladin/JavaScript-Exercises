@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#details{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: pink;
+}
