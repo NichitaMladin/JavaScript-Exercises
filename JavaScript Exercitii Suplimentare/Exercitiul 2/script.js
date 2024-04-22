@@ -24,7 +24,12 @@
         }
     }
 
-        return (sumEven - sumOdd);
+    if(sumEven > sumOdd){
+        return sumEven - sumOdd;
+    }else{
+        return sumOdd - sumEven;
+    }
+
  }
 
     console.log(warOfNumbers([2, 8, 7, 5]));
