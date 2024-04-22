@@ -25,3 +25,5 @@ let sumOfEvens = (matrix) => {
 
     console.log(sumOfEvens([[1, 0, 2], [5, 5, 7], [9, 4, 3]]));
     console.log(sumOfEvens([[1, 0, 6], [5, 5, 2], [9, 4, 2]]));
+    console.log(sumOfEvens([[1, 0, 6, 8], [5, 5, 2], [9, 4, 2, 3, 2]]));
+    console.log(sumOfEvens([[1, 0, 6, 8], [5, 5, 2], [9, 4, 2, 3, 2], [2, 8, 1, 3]]));
