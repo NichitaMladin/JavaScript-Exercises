@@ -24,4 +24,6 @@ let christmasTree = () => {
     return tree;
 }
 
+// document.getElementById('myDiv').innerHTML = (`<pre>${christmasTree()}</pre>`);
+
 console.log(christmasTree());
