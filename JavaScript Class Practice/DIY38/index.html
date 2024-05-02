@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIY38</title>
+</head>
+<body>
+    <h1>Please add friends</h1>
+    <input type="text" id="friends" placeholder="add friend">
+    <button onclick="addFriend()">Add friend</button>
+    <ul id="myFriends"></ul>
+
+    <script>
+        function addFriend(){
+            //Selectam valoarea de unde se ia input-ul
+            let friendInput = document.getElementById("friends").value;
+
+            //Creem o noua lista de elemente
+            let newFriendListItem = document.createElement("li");
+
+            //Selectam continutul noii liste pentru a coincide cu friendInput-ul
+            newFriendListItem.textContent = friendInput;
+
+            document.getElementById("myFriends").appendChild(newFriendListItem);
+            document.getElementById("friends").value = "";
+        }
+    </script>
+</body>
+</html>

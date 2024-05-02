@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIY37</title>
+</head>
+<body>
+    <h1>Change second to red</h1>
+    <button onclick="changeSecondItemToRed()">Change second to red</button>
+    <ul id="myFriends">
+        <li>hi</li>
+        <li>by</li>
+        <li>dy</li>
+    </ul>
+    
+    <script>
+        function changeSecondItemToRed(){
+            let secondItem = document.getElementById("myFriends").getElementsByTagName("li")[1];
+            secondItem.style.color = "red";
+        }
+    </script>
+</body>
+</html>
