@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitiu TEMA</title>
+</head>
+<body>
+    <h1>Person Data Form</h1>
+    <form id="personForm">
+        <label id="nameLabel">
+            Name: <input type="text" id="name" placeholder="Your Name">
+        </label><br><br>
+        <label id="ageLabel">
+            Age: <input type="number" id="age" placeholder="Your Age">
+        </label><br><br>
+        <label id="adressLabel">
+            Address: <input type="text" id="address" placeholder="Your Address">
+        </label><br><br>
+        <label id="studentLabel">
+            Student: 
+            <input type="checkbox" name="isStudent" value="yes" id="studentYes">Yes
+            <input type="checkbox" name="isNotStudent" value="no" id="studentNo">No
+        </label><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <div id="cardsContainer"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
